@@ -36,7 +36,6 @@ give_title: Callable = partial(
 refactor_document: Callable = partial(
     feature_prompt,
     features=[
-        features.standard_obsidian_db_doc,
         features.standard_obsidian_db_structure,
         features.refactor_document,
     ],
